@@ -10,7 +10,7 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
     max-height: 700px;
-    margin: auto;
+    margin: 50px;
     text-align: center;
     font-family: arial;
     padding: 30px;
@@ -20,6 +20,12 @@
     font-size: 16px;
     color:rgb(56, 60, 167);
 
+  }
+
+  .card-outer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   }
   
   .title {
@@ -36,7 +42,7 @@
     background-color: #00000060;
     text-align: center;
     cursor: pointer;
-    width: 100%;
+    width: 70%;
     font-size: 18px;
     border-radius: 10px;
   }
@@ -55,8 +61,9 @@
 </head>
 <body>
 
-<h2 style="text-align:center">My Personal Profile Card</h2>
+<h2 style="text-align:center">My Profile Card</h2>
 
+<div class="card-outer">
 <div class="card">
   <img src="./hn.jpg" alt="Md. Ibrahim Hussain" style="width:100%">
   <h1>Ibrahim Hussain</h1>
@@ -66,6 +73,7 @@
 
   <h3>Mobile: 01823201920</h3>
   <h3>Email: bijoyone@yahoo.com</h3>
+</div>
 </div>
 
 </body>
